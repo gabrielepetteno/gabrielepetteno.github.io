@@ -174,7 +174,7 @@ header.masthead {
 	padding-top: 400px;
 	text-align: center;
 	color: white;
-	background-image: url("../img/4-steps.jpg");
+	background-image: url("../img/4-steps-min.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -206,6 +206,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+header.masthead {
+	background-image: url("../img/4-steps.jpg");
+}
+	
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
