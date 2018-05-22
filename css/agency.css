@@ -85,12 +85,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ececec;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ececec;
   text-shadow: none;
 }
 
@@ -403,7 +403,7 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #78909C;
 }
 
 .timeline > li {
@@ -452,7 +452,7 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #CFD8DC;
   border-radius: 100%;
   background-color: #fed136;
 }
