@@ -31,7 +31,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #37474F;
 }
 
 .navbar-custom .navbar-brand {
@@ -153,6 +153,22 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
-#about{
-	
+.gp-logo>img{
+	height: 29px;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+	font-family: 'Roboto';
+	color: white;
 }
