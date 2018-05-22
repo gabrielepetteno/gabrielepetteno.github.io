@@ -172,3 +172,12 @@ header.masthead .bg-circle-4 {
 	font-family: 'Roboto';
 	color: white;
 }
+
+.image-logo{
+	background-image: url("../img/gp-logo.png");
+	background-repeat: no-repeat;
+	width: 29px; /*or your image's width*/
+	height: 29px; /*or your image's height*/
+	margin: 0;
+	padding: 0;
+}
