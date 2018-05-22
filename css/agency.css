@@ -170,16 +170,18 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
-  color: white;
-  background-image: url("../img/programmer.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 400px;
+	text-align: center;
+	color: white;
+	background-image: url("../img/4-steps.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 header.masthead .intro-text {
