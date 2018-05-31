@@ -35,7 +35,11 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 10px 0;
+}
+
+section.margin-top-50{
+	padding-top: 50px;
 }
 
 section h2.section-heading {
@@ -55,7 +59,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -702,4 +706,72 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+/*CUSTOM*/
+
+.title{
+	font-size: 7vw;
+	text-align: center;
+}
+
+.mobile-text-center{
+	text-align: center;
+}
+
+/*desktop*/
+@media (min-width: 992px) {
+	.title{
+		font-size: 5vw;
+		text-align: left;
+	}
+	
+	.mobile-text-center{
+		text-align: left;
+	}
+}
+
+.color-m{
+	color: #005551 !important;
+}
+
+.color-y{
+	color: #59b581 !important;
+}
+
+.color-w{
+	color: #fcc200 !important;
+}
+
+.color-o{
+	color: #f29232 !important;
+}
+
+.color-r{
+	color: #009ee2 !important;
+}
+
+.color-l{
+	color: #00386d !important;
+}
+
+.color-d{
+	color: #065870 !important;
+}
+
+.color-spotify{
+	color: #1ed760 !important;
+}
+
+a.text-link{
+	text-decoration: underline;
+}
+
+.section-history{
+	padding: 50px 0px 30px 0px;
+}
+
+.vertical-align{
+	align-content: center;
+	display: grid;
 }
