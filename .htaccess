@@ -37,7 +37,7 @@ AddOutputFilterByType DEFLATE image/svg+xml
 AddOutputFilterByType DEFLATE image/x-icon 
 
 # Exception: Images
-SetEnvIfNoCase REQUEST_URI \.(?:gif|jpg|jpeg|png)$ no-gzip dont-vary
+SetEnvIfNoCase REQUEST_URI \.(?:gif|jpg|jpeg|png|php)$ no-gzip dont-vary
 
 # Drop problematic browsers
 BrowserMatch ^Mozilla/4 gzip-only-text/html
