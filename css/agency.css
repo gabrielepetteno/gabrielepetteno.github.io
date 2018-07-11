@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -85,7 +80,7 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: none !important;
 }
 
 ::-moz-selection {
@@ -774,4 +769,33 @@ a.text-link{
 .vertical-align{
 	align-content: center;
 	display: grid;
+}
+
+.p-5{
+	text-align: center;
+}
+.mdl-mini-footer{
+	display: inline;
+}
+
+.social-btn{
+	height: 2.50em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.display-block{
+	display: block;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.text-muted-y {
+	color: #fed136;
+}
+
+a.href-hidden{
+	text-decoration: none !important;
 }
