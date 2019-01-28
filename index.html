@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html xmlns="https://gabrielepetteno.github.io/" lang="en" xml:lang="en">
-  <head>
-	
-	<meta http-equiv="cache-control" content="max-age=31536000" />
-	<!--<meta http-equiv="pragma" content="no-cache" />-->
-	
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="img/gp-logo.png">
+	<link rel="icon" type="image/png" href="img/gp-logo-dark.png">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="author" content="Gabriele Pettenò">
 	<meta name="robots" content="all"> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Gabriele Pettenò website">
-    <meta name="author" content="Gabriele Pettenò">
+	
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#37474F">
 	<!-- Windows Phone -->
@@ -19,244 +18,414 @@
 
 	<meta name="description" content="Gabriele Pettenò Website">
 	<title>Gabriele Pettenò</title>
-	<link rel="icon" href="/img/gp-logo-dark.png">
+	<link rel="icon" href="img/gp-logo-dark.png" alt="Gabriele Pettenò Logo">
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 	
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Google Recapcha -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<!-- CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/material-kit.css?v=1.2.1" rel="stylesheet"/>
+</head>
+
+<body class="profile-page">
+	<nav class="navbar navbar-transparent navbar-absolute navbar-expand-lg">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header navbar-nav">
+				<a class="navbar-brand">
+					<img rel="Gabriele Pettenò Logo" type="image/png" src="img/gp-logo-dark.png">
+				</a>
+			</div>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#contatti">
+						<i class="material-icons">call</i> Contatti
+					</a>
+				</li>					
+			</ul>
+		</div>
+	</nav>
 	
-	<link href="css/one-page-wonder.css" rel="stylesheet">
-	<link href="css/agency.css" rel="stylesheet">	
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand gp-logo" href="https://gabrielepetteno.github.io"><img class="image-logo" src="/img/gp-logo.png"></a>
-		<p class="navbar-text">Gabriele Pettenò</p>
-      </div>
-    </nav>
-
-    <header class="masthead text-center text-white">
-      <div class="masthead-content">
-        <div class="container">
-          <a href="#coding" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
-        </div>
-      </div>
-    </header>
-
-    <section style="background-color:#e8e8e8" id="coding">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle lazy" data-src="img/programmer.jpg" alt="Coding">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="title">Coding..</h2>
-              <p class="mobile-text-center">I've been coding since 2016. I know how to build web apps using C# and Windows app using .Net, Visual Basic and C#.<br>I love to create websites using html, js, jquery, php etc..<br>I'm able to use Microsoft and Oracle Database.<br>Love to improve my know-how with new technologies. I'm interested to understand more about blockchain and AI !</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section style="background-color:#e8e8e8" name="networking">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle lazy" data-src="img/Networking.jpg" alt="Network, Lyoness, CashbackWorld, Cashback">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="p-5">
-              <h2 class="title">Networking</h2>
-              <p class="mobile-text-center">In 2014 I started my own company inside a MLM business. I collaborate with an Austrian company called <a href="https://www.myworld.com/en/"><span class="color-m">m</span><span class="color-y">y</span><span class="color-w">W</span><span class="color-o">o</span><span class="color-r">r</span><span class="color-l">l</span><span class="color-d">d</span></a>. This company allows me to save money in my everyday purchases in over than 350.000 affiliated companies all over the world.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section style="background-color:#e8e8e8" name="music">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-circle lazy" data-src="img/music.jpg" alt="music, dance, hip hop, spotify">
-            </div>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="p-5">
-              <h2 class="title">Music !!!</h2>
-              <p class="mobile-text-center">Hip hop is my biggest passion. While I'm coding or working I love listening to some great songs.<br>I have a <span class="color-spotify">Spotify Premium</span> account where i update my playlists and share my passion with friends.<br>I definitely love dancing...hip hop obviously!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+	<div class="page-header header-filter" data-parallax="true"></div>
 	
-	<!-- About -->
-    <section id="about" class="margin-top-50 section-history">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">History</h2>
-            <h3 class="section-subheading text-muted">My professional resume.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <a href="https://www.robyone.net/"><img class="rounded-circle img-fluid lazy" data-src="img/robyone.png" alt="robyone trebaseleghe"></a>
+	<div class="main main-raised">
+		<div class="profile-content">
+            <div class="container">
+
+                <div class="row">
+	                <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+        	           <div class="profile">
+	                        <div class="avatar">
+	                            <img src="img/profile-face.jpg" alt="Gabriele Pettenò" class="img-circle img-responsive img-raised">
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">Gabriele Petteno'</h3>
+								<h6>Imprenditore 2.0</h6>
+								<div class="col-xs-12 hidden-md hidden-lg">
+									<div class="col-xs-4">
+										<a href="https://facebook.com/gabriele.petteno.96.imprenditore" class="btn btn-just-icon btn-round btn-facebook"><i class="fa fa-facebook"></i></a>
+									</div>
+									<div class="col-xs-4">
+										<a href="https://www.linkedin.com/in/gabrielepetteno-96" class="btn btn-just-icon btn-round btn-linkedin"><i class="fa fa-linkedin"></i></a>
+									</div>
+									<div class="col-xs-4">
+										<a href="https://github.com/gabrielepetteno" class="btn btn-just-icon btn-round btn-github"><i class="fa fa-github"></i></a>
+									</div>
+								</div>
+	                        </div>
+	                    </div>
+    	            </div>
+                    <div class="col-md-3 hidden-sm hidden-xs">
+						<div class="col-xs-4 follow">
+							<a href="https://facebook.com/gabriele.petteno.96.imprenditore">
+								<button class="btn btn-fab btn-facebook">
+									<i class="fa fa-facebook"> </i>
+								</button>
+							</a>
+						</div>
+						<div class="col-xs-4 follow">
+							<a href="https://www.linkedin.com/in/gabrielepetteno-96">
+							   <button class="btn btn-fab btn-linkedin">
+									<i class="fa fa-linkedin"> </i>
+								</button>
+							</a>
+						</div>
+						<div class="col-xs-4 follow">
+							<a href="https://github.com/gabrielepetteno">
+							   <button class="btn btn-fab btn-github">
+									<i class="fa fa-github"> </i>
+								</button>
+							</a>
+						</div>
+	                </div>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>09/15 - 02/16</h4>
-                    <h4 class="subheading" style="color:#a52f36"><a href="https://www.robyone.net/">Robyone</a></h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">IT security. I also developed a portal for teaching kids how to use internet properly and how to be secure while they're surfing the net.<br><a href="http://www.progettobimbi.org/" class="text-muted text-link">Progetto Bimbi</a></p>
-                  </div>
+
+
+                <div class="description text-center">
+                    <h4 class="title">Nella mia vita cerco sempre di fare quello che mi piace e che mi appassiona! Sto ancora conoscendo veramente tanti imprenditori e vedo che in italia manca proprio la voglia di fare e mettersi in gioco.</h4>
                 </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <a href="http://en.elteclift.com/"><img class="rounded-circle img-fluid lazy" data-src="img/eltec-e.png" alt="Eltec, Elteclift, Elevatori, Elevator, Ascensori, Montacarichi, Eltec s.n.c, Eltecsnc"></a>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>02/16 - 02/17</h4>
-                    <h4 class="subheading"><a href="http://en.elteclift.com/">Eltec</a></h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Advertising. I created and developed <a href="http://crm.elteclift.com" class="text-muted text-link">Company internal CRM</a> to organize customer orders and issues using ASP.NET</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-					<a href="http://www.eurekasystem.it/"><img class="rounded-circle img-fluid lazy" data-src="img/es-logo.png" alt="Eurekasystem, Villorba, Eurekasystemsrl, Eurekasystem s.r.l, Eureka"></a>
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>07/16-07/17</h4>
-                    <h4 class="subheading"><a href="http://www.eurekasystem.it/">Eureka System</a></h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Development and Creation of a custom domotic system for the company main building in Villorba (IT), using <a href="https://www.codesys.com/" class="text-muted text-link">Codesys</a> for raspbery Pi3 and note ethercat.<br>I've built some Supervisors in companies like <a href="https://www.sanbenedetto.it/it/home/" class="text-muted text-link">San Benedetto</a> or <a href="http://www.tmcigroup.com/" class="text-muted text-link">TMCI Padovan</a> using Zenon Supervisor and Zenon Analyzer from <a href="https://www.copadata.com" class="text-muted text-link">COPADATA</a>.</p>
-                  </div>
-                </div>
-              </li>
-		      <li class="timeline-inverted">
-				<div class="timeline-image">
-					<img class="rounded-circle img-fluid lazy" data-src="img/profile-face.jpg" alt="Gabriele Pettenò">
-				</div>
-				<div class="timeline-panel">
-				    <div class="timeline-heading">
-						<h4>07/17</h4>
-						<h4 class="subheading"><a href="http://gabrielepetteno.github.io/">Freelancer</a></h4>
-				    </div>
-				    <div class="timeline-body">
-						<p class="text-muted">Starting to create something on my own! Working in different project to build my future!!!</p>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="profile-tabs">
+		                    <div class="nav-align-center">
+								<ul class="nav nav-pills nav-pills-icons" role="tablist">
+									<li class="active">
+			                            <a href="#work" role="tab" data-toggle="tab"><i class="material-icons">history</i>Storia</a>
+			                        </li>
+                                    <li>
+										<a href="#connections" role="tab" data-toggle="tab"><i class="material-icons">people</i>Passioni</a>
+									</li>
+			                    </ul>
+							</div>
+						</div>
+						<!-- End Profile Tabs -->
 					</div>
-				</div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image vertical-align">
-					<h4>Contant Me!</h4>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-	
-	<!-- Contact -->
-    <section id="contact" class="margin-top-50 section-history">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Me</h2>
-            <h3 class="section-subheading text-muted-y">I will try to contact you as quick as possible.</h3>
-          </div>
-        </div>
-        <div class="row">
-		  <form style="width:100%;">
-			<div class="col-lg-12">
-              <div class="row">
-				<div class="col-md-6">
-				  <div class="form-group">
-					<input class="form-control" id="formname" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-					<p class="help-block text-danger"></p>
-				  </div>
-				  <div class="form-group">
-					<input class="form-control" id="formemail" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-					<p class="help-block text-danger"></p>
-				  </div>
-				  <div class="form-group">
-					<input class="form-control" id="formphone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-					<p class="help-block text-danger"></p>
-				  </div>
-				</div>
-				<div class="col-md-6">
-				  <div class="form-group">
-					<textarea class="form-control" id="formmessage" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-					<p class="help-block text-danger"></p>
-				  </div>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-lg-12 text-center">
-				  <button id="buttonsendmessage" class="btn btn-primary btn-xl text-uppercase" onclick="sendEmail()">Send Message</button>
-				</div>
-			  </div>
+                <div class="tab-content">
+			        <div class="tab-pane active work" id="work"> <!-- WORK TAB -->
+				        <div class="row">
+							<div class="col-md-10 col-md-offset-1 col-sm-12">
+								<h2 class="title">Storia</h2>
+								<!--Libero professionista-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+											<div class="card-image">
+												<img class="img img-raised rounded img-fluid" src="img/profile-face.jpeg" />
+											</div>
+										</div>									
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<h6 class="category text-success customTextLeft"><i class="material-icons">trending_up</i> Dal 10/18 ad Oggi</h6>
+											<h3 class="card-title customTextLeft">
+												<a>Libero Professionista</a>
+											</h3>
+											<p class="card-description customTextLeft">
+												Ho iniziato a lavorare con diverse aziende in diversi settori. Lavoro in diversi progetti e diversi ambiti cercando di fornire un servizio molto personalizzato per il cliente.</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--Eureka system-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+											<div class="card-image">
+												<img class="img img-raised rounded img-fluid" src="img/eureka-logo.png" rel="eureka system logo"/>
+											</div>
+										</div>									
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<h6 class="category text-success customTextLeft"> Dal 07/17 al 09/18</h6>
+											<h3 class="card-title customTextLeft">
+												<a href="http://www.eurekasystem.it/">Eureka System</a>
+											</h3>
+											<p class="card-description customTextLeft">
+												Ho svillupato un sistema domotico per la loro sede di Villorvba (TV), usando <a href="https://www.codesys.com/" class="text-muted text-link">Codesys</a> per raspbery Pi3 e nodi ethercat.<br>
+												Ho sviluppato supervisori in aziende come <a href="https://www.sanbenedetto.it/it/home/" class="text-muted text-link">San Benedetto</a> e 
+												<a href="http://www.tmcigroup.com/" class="text-muted text-link">TMCI Padovan</a> usando Zenon Supervisor e Zenon Analyzer di <a href="https://www.copadata.com" class="text-muted text-link">COPADATA</a>.
+											</p>											
+										</div>
+									</div>
+								</div>
+								<!--Eltec Lift-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+											<div class="card-image">
+												<img class="img img-raised rounded img-fluid" src="img/eltec.png" rel="elteclift logo"/>
+											</div>
+										</div>									
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<h6 class="category text-success customTextLeft"> Dal 04/16 al 06/17</h6>
+											<h3 class="card-title customTextLeft">
+												<a href="http://www.elteclift.com/it">Eltec Lift</a>
+											</h3>
+											<p class="card-description customTextLeft">
+												Ho sviluppato un CRM totalmente custom che si addattava all'esigenza di Eltec e permetteva ai clienti la configurazione dell'ascensore comodamente dal computer, ovviando a tutti i moduli di richiesta di fattibilità che normalmente venivano utilizzati.<br>
+												Tutto sviluppato in ASP.NET MVC e Database SQL.
+												Inoltre mi sono occupato di tutta la parte online dell'azienda. Dai social al sito web per renderla visibile anche online.
+											</p>											
+										</div>
+									</div>
+								</div>
+								<!--Robyone-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-3 col-sm-3 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+											<div class="card-image">
+												<img class="img img-raised rounded img-fluid" src="img/robyone.png" rel="robyone logo"/>
+											</div>
+										</div>									
+										<div class="col-md-9 col-sm-9 col-xs-12">
+											<h6 class="category text-success customTextLeft"> Dal 09/15 al 03/16</h6>
+											<h3 class="card-title customTextLeft">
+												<a href="https://www.robyone.net/">Robyone</a>
+											</h3>
+											<p class="card-description customTextLeft">
+												La società si occupava di sicurezza informatica per enti pubblici. Io ho sviluppato un portale per insegnare ad i bambini come usare internet in maniera adeguata e come navigare in sicurezza.<br>
+												Ancora disponibile su <a href="http://www.progettobimbi.org/" class="text-muted text-link">Progetto Bimbi</a>
+											</p>											
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+			        </div>
+                    <div class="tab-pane connections" id="connections">
+                        <div class="row">
+            				<div class="col-md-10 col-md-offset-1 col-sm-12">
+								<!--CARD 1-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-5">
+											<div class="card-image">
+												<img class="img img-raised" src="img/programmer.png" />
+											</div>
+										</div>
+										<div class="col-md-7">
+											<h6 class="category text-info"><i class="material-icons">trending_up</i> Business</h6>
+											<h3 class="card-title"> Programmatore</h3>
+											<p class="card-description">
+												Dalle superiori mi è sempre piaciuto sviluppare codice.<br>Ho imparato a sviluppare codice lavorando linguaggi orientati allo sviluppo web 
+												(HTML, PHP, Javascript, ecc..) e linguaggi per sviluppare Applicazione (C#, Java ecc..) inoltre mi occupo di sviluppo di software PLC in Omron 
+												con relativo supervisore sviluppato ad-hoc da me in C#.<br>Mi piace risolvere i problemi e sono molto competitivo.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--CARD 2-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-7">
+											<h6 class="category text-danger"><i class="material-icons">share</i> Networking</h6>
+											<h3 class="card-title"> Multi-level Marketing</h3>
+											<p class="card-description">
+												Una parte della mia giornata lavorativa la dedico anche a sviluppare una rete vendita per una multinazionale Austriaca chiamata 
+												<a href="https://www.myworld.com/en/">
+													<span class="color-m">m</span><span class="color-y">y</span><span class="color-w">W</span><span class="color-o">o</span><span class="color-r">r</span><span class="color-l">l</span><span class="color-d">d</span>
+												</a>
+												che permette a chiunque di risparmiare da tutti gli acquisti quotidiani e a me di guadagnare dai fatturati generati dal mio network.												
+											</p>
+										</div>
+										<div class="col-md-5">
+											<div class="card-image">
+												<img class="img img-raised" src="img/networking.jpg" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--CARD 3-->
+								<div class="card card-plain card-blog">
+									<div class="row">
+										<div class="col-md-5">
+											<div class="card-image">
+												<img class="img img-raised" src="img/dance.jpg" />
+											</div>									
+										</div>
+										<div class="col-md-7">
+											<h6 class="category text-info"><i class="material-icons">music_note</i> Dancing</h6>
+											<h3 class="card-title"> Fin da piccolo ho la passione per la musica</h3>
+											<p class="card-description">
+												Ho questa passione da quando sono nato, sono convinto che la musica possa essere per tutti un sistema per modificare lo stato d'animo di una persona.<br>
+											</p>
+										</div>
+									</div>
+								</div>
+									
+							</div>
+            			</div>
+                    </div>
+			    </div>			
+			</div>	<!-- containter -->
+				<br>
+				<hr>
+				<br>				
+			<div class="container">
+				<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
+				<!-- ================ -->
+				<footer id="footer">
+
+					<!-- .footer start -->
+					<!-- ================ -->
+					<div class="footer">
+						<div class="container">
+							<div class="footer-inner">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="footer-content">
+											<div class="logo-footer"><img id="logo-footer" src="img/gp-logo-dark.png" style="height: 60px;align: center;" alt="Gabriele Pettenò Logo"></div>
+											<p>Sono a tua disposizione per qualsiasi richiesta: non esitare a contattarmi.
+											</br>Qui sotto trovi i miei riferimenti, alternativamente puoi usare il form di contatto per inviarci una richiesta.</p>
+											<div class="separator-2"></div>
+											<ul class="social-links circle margin-clear animated-effect-1">									
+												<li class="facebook"><a target="_blank" href="https://facebook.com/gabriele.petteno.96.imprenditore"><i class="fa fa-facebook"></i></a></li>									
+												<li class="twitter"><a target="_blank" href="https://twitter.com/GabrielePetteno"><i class="fa fa-twitter"></i></a></li>
+												<li class="googleplus"><a target="_blank" href="google.com/+GabrielePettenò"><i class="fa fa-google-plus"></i></a></li>									
+												<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/gabrielepetteno-96"><i class="fa fa-linkedin"></i></a></li>									
+												<li class="github"><a target="_blank" href="https://github.com/gabrielepetteno"><i class="fa fa-github"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-sm-6 col-sm-offset-3">
+										<div class="footer-content">
+											<h2 class="title">Contattami</h2>
+											<div class="alert alert-success hidden" id="MessageSent2">
+												Il tuo messaggio è stato inviato, riceverai una risposta nel più breve tempo possibile.
+											</div>
+											<div class="alert alert-danger hidden" id="MessageNotSent2">
+												Errore nell'invio del messaggio. Prova a ricaricare la pagina e riprova.
+											</div>
+											<form role="form" id="footer-form" class="margin-clear" action="php/email-sender-recaptcha.php" method="post">
+												<div class="form-group has-feedback mb-10">
+													<label class="sr-only" for="name2">Nome</label>
+													<input type="text" required="true" class="form-control" id="name2" placeholder="Nome" name="name2">
+													<i class="fa fa-user form-control-feedback"></i>
+												</div>
+												<div class="form-group has-feedback mb-10">
+													<label class="sr-only" for="email2">Email</label>
+													<input type="email" required="true" class="form-control" id="email2" placeholder="E-mail" name="email2">
+													<i class="fa fa-envelope form-control-feedback"></i>
+												</div>
+												<div class="form-group has-feedback mb-10">
+													<label class="sr-only" for="message2">Messaggio</label>
+													<textarea class="form-control" required="true" rows="4" id="message2" placeholder="Messaggio" name="message2"></textarea>
+													<i class="fa fa-pencil form-control-feedback"></i>
+												</div>
+												<div class="g-recaptcha" data-sitekey="6LdiVo0UAAAAAFoXBUxgzGnL25I9IW4_-mhnInOO" data-theme="dark"></div>
+												<input type="submit" value="Invia" class="margin-clear submit-button btn btn-default">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="footer">
+						<div class="container">
+							<div class="footer-inner">
+								<div class="row">
+								<div class="footer-content">
+									<div class="col-md-12">
+									<div id="map-canvas" style="margin-top: -40px;"></div>
+									</div>
+								</div>	
+								</div>
+							</div>
+					</div>				
+					</div>
+							
+					<!-- .footer end -->
+				</footer>				
             </div>
-		  </form>
         </div>
-      </div>
-    </section>
+	</div>
+	
+	
 
-    <!-- Footer -->
-    <footer class="py-5 bg-black">
-	  <div class="display-block">
-		<ul class="no-padding">
-			<li class="mdl-mini-footer">
-				<a href="https://www.facebook.com/gabriele.petteno.96" title="Facebook" class="href-hidden">
-					<img class="lazy social-btn" data-src="https://i.imgur.com/I6U2vOU.png" alt="facebook icon">
-				</a>
-			</li>
-			<li class="mdl-mini-footer">
-				<a href="https://www.instagram.com/gabrielepetteno/" title="Instagram" class="href-hidden">
-					<img class="lazy social-btn" data-src="https://i.imgur.com/owNR0dv.png" alt="instagram icon">
-				</a>
-			</li>
-			<li class="mdl-mini-footer">
-				<a href="https://www.linkedin.com/in/gabrielepetteno-96/" title="Linkedin" class="href-hidden">
-					<img class="lazy social-btn" data-src="https://i.imgur.com/YoYWors.png" alt="linkedin icon">
-				</a>
-			</li>
-		</ul>
-	  </div>
-      <!-- /.container -->
-    </footer>
+	<!-- .subfooter start -->
+	<!-- ================ -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-12">
+				<p class="text-center text-center-footer">Copyright © <a target="_blank" href="http://gabrielepetteno.github.io">Gabriele Pettenò</a>. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+	<!-- .subfooter end -->
+    <!--<footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+				<ul>
+					<li>
+						<a href="http://www.creative-tim.com">
+							Creative Tim
+						</a>
+					</li>
+					<li>
+						<a href="http://presentation.creative-tim.com">
+						   About Us
+						</a>
+					</li>
+					<li>
+						<a href="http://blog.creative-tim.com">
+						   Blog
+						</a>
+					</li>
+					<li>
+						<a href="http://www.creative-tim.com/license">
+							Licenses
+						</a>
+					</li>
+				</ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            </div>
+        </div>
+    </footer>-->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="js/lazyload-min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-	<!--<script src="js/contact_me.js" type="text/javascript" charset="utf-8"></script>-->
+</body>
 
-  </body>
-  
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+
+	<!--   Core JS Files   -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/tagsinput.js" type="text/javascript"></script>
+	<script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../assets/js/material.min.js" type="text/javascript"></script>
+	
+	<script src="js/jquery.easeScroll.js" type="text/javascript"></script>
+
+	<!--    Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc    -->
+	<script src="../assets/js/material-kit.js?v=1.2.1" type="text/javascript"></script>
 </html>

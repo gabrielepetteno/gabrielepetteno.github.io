@@ -1,0 +1,125 @@
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+.navbar-header{
+	margin-left: auto !important;
+}
+
+.navbar-right {
+  float: right!important;
+  margin-right: auto;
+}
+
+.navbar-header{
+	width: 50%;
+	display: inline-block;
+}
+
+.navbar-brand > img{
+	height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page-header{
+	background-image: url('../img/wall2.jpg');
+	background-position:top;
+}
+
+.nav-pills > li.active > a {
+	background-color: #696969 !important;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(128, 128, 128, 0.6) !important;
+}
+
+.text-link{
+	color: #0064ff;
+}
+
+/*CSS*/
+/*screen-xs*/
+@media (max-width: 768px) { 
+  .customTextLeft{text-align:center;}
+}
+/*screen-sm*/
+@media (min-width: 768px) and (max-width: 992px) { 
+  .customTextLeft{text-align:left;}
+}
+/*screen-md*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+  .customTextLeft{text-align:left;}
+}
+/*screen-lg corresponds with col-lg*/
+@media (min-width: 1200px) {  
+  .customTextLeft{text-align:left}
+}
+
+
+
+
+
+
+/* color MYWORLD.COM */
+
+.color-m{
+	color: #005551 !important;
+}
+
+.color-y{
+	color: #59b581 !important;
+}
+
+.color-w{
+	color: #fcc200 !important;
+}
+
+.color-o{
+	color: #f29232 !important;
+}
+
+.color-r{
+	color: #009ee2 !important;
+}
+
+.color-l{
+	color: #00386d !important;
+}
+
+.color-d{
+	color: #065870 !important;
+}
+
+
+hr {
+	margin-right: 4vw !important;
+    margin-left: 4vw !important;
+}
+
+#logo-footer{
+	margin-bottom: 25px;
+}	
+	
+.form-group.is-focused .form-control {
+    outline: none;
+	background-image: linear-gradient(#3c4858, #3c4858), linear-gradient(#D2D2D2, #D2D2D2) !important;
+    background-size: 100% 2px, 100% 1px;
+    box-shadow: none;
+    transition-duration: 0.3s;
+}
+
+.form-group .form-control {
+	cursor: text;
+}
+
+a:focus, a:hover {
+    color: #000000 !important;
+}
+
+.text-center-footer{
+	margin-top: 30px;
+}
