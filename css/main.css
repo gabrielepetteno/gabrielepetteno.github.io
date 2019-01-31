@@ -120,8 +120,8 @@ a:focus, a:hover {
     color: #000000 !important;
 }
 
-nav > a:focus, a:hover {
-    color: #fffff !important;
+.navbar-nav>li>a:focus {
+    color: #d2d2d2 !important;
 }
 
 .text-center-footer{
